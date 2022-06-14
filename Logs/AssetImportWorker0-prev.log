@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Uniti1679/Denis/UI
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59204
+Successfully changed project path to: D:/Unity/Uniti1679/Denis/UI
+D:/Unity/Uniti1679/Denis/UI
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Uniti1679/Denis/UI/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   
+    VRAM:     3955 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001103 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.317600 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.038200 ms MarkObjects: 2.994900 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Xbox Controller/Controller sheets/Bonus Thumbstick Sheet.png
+  artifactKey: Guid(9fdf65abb12898540a9c7a961a5ca1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Controller sheets/Bonus Thumbstick Sheet.png using Guid(9fdf65abb12898540a9c7a961a5ca1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa475c6922f4de274c6d3523579932cb') in 0.189274 seconds 
+  Import took 0.191769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Xbox Controller
+  artifactKey: Guid(0c52af7987aa7a446b24c6dcc7326cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller using Guid(0c52af7987aa7a446b24c6dcc7326cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4d93567f8c009fbc538337e13746c3') in 0.025032 seconds 
+  Import took 0.027110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Xbox Controller/Controller sheets
+  artifactKey: Guid(25665e708edf7e94cb5ed9ab8411fa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Controller sheets using Guid(25665e708edf7e94cb5ed9ab8411fa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd65aa7099e734fb1b7be2ada03930f3') in 0.024315 seconds 
+  Import took 0.026401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Xbox Controller/Controller sheets/ABYX sprite.png
+  artifactKey: Guid(bff7b5b6060d17948b50442091e1f004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Controller sheets/ABYX sprite.png using Guid(bff7b5b6060d17948b50442091e1f004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126d64c2dbf732d312fd061b9b79e6c3') in 0.070688 seconds 
+  Import took 0.072783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Xbox Controller/Controller sheets/Other Buttons sheet.png
+  artifactKey: Guid(07ae5d063100d5d43a353e0d35402336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Controller sheets/Other Buttons sheet.png using Guid(07ae5d063100d5d43a353e0d35402336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8120abb73665a346a59adb58e2c47829') in 0.069523 seconds 
+  Import took 0.071686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Xbox Controller/Controller sheets/Movement sheet.png
+  artifactKey: Guid(c5432c598b729d745b17f08e7ea1cdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Controller sheets/Movement sheet.png using Guid(c5432c598b729d745b17f08e7ea1cdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3b94205439eb9a0ad1c3c04048ea36') in 0.062940 seconds 
+  Import took 0.065136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.196026 seconds.
+  path: Assets/Xbox Controller/Prefab/A button.prefab
+  artifactKey: Guid(c2cf9bae85280df498684a5d4a0379e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/A button.prefab using Guid(c2cf9bae85280df498684a5d4a0379e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6bb340a172c6dc77316a9ce269738') in 0.200839 seconds 
+  Import took 0.203242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Up-left.prefab
+  artifactKey: Guid(c6be0f20388e5aa47b78a533c2e8f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Up-left.prefab using Guid(c6be0f20388e5aa47b78a533c2e8f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec15a19a33276c730df7d685646e778') in 0.035272 seconds 
+  Import took 0.037747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Xbox Controller/Prefab/D-pad Right.prefab
+  artifactKey: Guid(a431a5a34985efa4791363fb9d80f859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/D-pad Right.prefab using Guid(a431a5a34985efa4791363fb9d80f859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2423829cb878853f0fc6592464f22f07') in 0.037558 seconds 
+  Import took 0.040023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Xbox Controller/Prefab/B button.prefab
+  artifactKey: Guid(90e8e39bbb6cfbd489e35781ba3fb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/B button.prefab using Guid(90e8e39bbb6cfbd489e35781ba3fb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aab812dce6d037e0caf59615dcc2488') in 0.034076 seconds 
+  Import took 0.036281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Xbox Controller/Prefab/D-pad Up.prefab
+  artifactKey: Guid(9a0190181f1642f44bb2f00a79e484bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/D-pad Up.prefab using Guid(9a0190181f1642f44bb2f00a79e484bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8552b624948f3539429de899e751859') in 0.042277 seconds 
+  Import took 0.044562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Right.prefab
+  artifactKey: Guid(49515d41984e301448dc9f645578bc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Right.prefab using Guid(49515d41984e301448dc9f645578bc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c714f69c919db6ebecbfe5140f0196bc') in 0.034301 seconds 
+  Import took 0.036608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Up-right.prefab
+  artifactKey: Guid(b40c0a101943ef54e9a76848d808df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Up-right.prefab using Guid(b40c0a101943ef54e9a76848d808df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9b83996a19a2bb8b078cdb54557e8d') in 0.033459 seconds 
+  Import took 0.035681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Xbox Controller/Prefab/LT.prefab
+  artifactKey: Guid(1820cb82131856246a5eedb6a4d6781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/LT.prefab using Guid(1820cb82131856246a5eedb6a4d6781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77bd022b4b9a468f2cf827d2b8aaf3') in 0.054623 seconds 
+  Import took 0.056853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick 360rotation.prefab
+  artifactKey: Guid(8ad24f47cee311349b7b9003c0d403fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick 360rotation.prefab using Guid(8ad24f47cee311349b7b9003c0d403fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ac69cef20cad445b400fc2a6c7ab33') in 0.031598 seconds 
+  Import took 0.033889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Xbox Controller/Prefab/Y button.prefab
+  artifactKey: Guid(7f5d3a3e276a1764bbbc9f0ab54ad14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Y button.prefab using Guid(7f5d3a3e276a1764bbbc9f0ab54ad14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612bf23e981112a88f53a48ef7697096') in 0.031508 seconds 
+  Import took 0.033761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Left.prefab
+  artifactKey: Guid(bf64f0cd861f9124f8536f4f9083f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Left.prefab using Guid(bf64f0cd861f9124f8536f4f9083f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862045252ca480f080c547acf94ffdba') in 0.032368 seconds 
+  Import took 0.034552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Up 1.prefab
+  artifactKey: Guid(c870a2fe5252aa34fb9f1b9fbaa4de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Up 1.prefab using Guid(c870a2fe5252aa34fb9f1b9fbaa4de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8ad0d5ec50d43920fd5fde530f10c1') in 0.031351 seconds 
+  Import took 0.033585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Xbox Controller/Prefab/RT.prefab
+  artifactKey: Guid(b064a0aac32cfb2428f01fadbdd5e285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/RT.prefab using Guid(b064a0aac32cfb2428f01fadbdd5e285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddbd6fde919643dc4eaaaa843f2f721') in 0.031151 seconds 
+  Import took 0.033409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Xbox Controller/Prefab/RB.prefab
+  artifactKey: Guid(ab3f8f3c99b6ad2489fa898a5a3d2749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/RB.prefab using Guid(ab3f8f3c99b6ad2489fa898a5a3d2749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31e7af694f1b9645aa3f46493767354') in 0.031404 seconds 
+  Import took 0.033652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Xbox Controller/Prefab/D-pad Down.prefab
+  artifactKey: Guid(5a3cd1c07d87c404a814e8792024d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/D-pad Down.prefab using Guid(5a3cd1c07d87c404a814e8792024d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fe3f4a6c858a514220329ed03ef6db') in 0.032129 seconds 
+  Import took 0.034374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Up.prefab
+  artifactKey: Guid(e083d02984b93cd4293f1358d6cc091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Up.prefab using Guid(e083d02984b93cd4293f1358d6cc091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785a49840fa1117386b87071a1d5190e') in 0.033120 seconds 
+  Import took 0.035371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Xbox Controller/Prefab/Back.prefab
+  artifactKey: Guid(7d6e604a210a6994bacec35bf2baaf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Back.prefab using Guid(7d6e604a210a6994bacec35bf2baaf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6b54e9bdee73ec022096b7df922d74') in 0.031608 seconds 
+  Import took 0.033815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Down-right.prefab
+  artifactKey: Guid(9b734934426e5b44fb7f03bdfe2b0b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Down-right.prefab using Guid(9b734934426e5b44fb7f03bdfe2b0b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff081fa617c8933617050eab162632e9') in 0.032532 seconds 
+  Import took 0.034739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Left and Right.prefab
+  artifactKey: Guid(ae6ec9960cb5aef4ca2957a81a0485c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Left and Right.prefab using Guid(ae6ec9960cb5aef4ca2957a81a0485c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089d8fec3da50f86677735d156f38641') in 0.033279 seconds 
+  Import took 0.035583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Xbox Controller/Prefab/D-pad Left.prefab
+  artifactKey: Guid(d2c9222b33c5c964a940693c5d7e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/D-pad Left.prefab using Guid(d2c9222b33c5c964a940693c5d7e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f382cf619032dd8e6775d1c944f989') in 0.031486 seconds 
+  Import took 0.033674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Down-left.prefab
+  artifactKey: Guid(02e15bef5c56a2b47a5f83e1d636cad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Down-left.prefab using Guid(02e15bef5c56a2b47a5f83e1d636cad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1c00087624fbd22dd048e01b1e870') in 0.031864 seconds 
+  Import took 0.034135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Xbox Controller/Prefab/Thumbstick Down.prefab
+  artifactKey: Guid(a91a4102772cabe43b6f2267614c5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Thumbstick Down.prefab using Guid(a91a4102772cabe43b6f2267614c5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea5ec2b2a3bdd65f62b37058df2923') in 0.030867 seconds 
+  Import took 0.033091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Xbox Controller/Prefab/Start.prefab
+  artifactKey: Guid(a72674d400735bf43815d5a45f5dad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/Start.prefab using Guid(a72674d400735bf43815d5a45f5dad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cab5438b1b11abb63e9d6e68fb032a') in 0.031510 seconds 
+  Import took 0.033721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Xbox Controller/Prefab/X button.prefab
+  artifactKey: Guid(ce4c526025139f64284c1e50a856439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/X button.prefab using Guid(ce4c526025139f64284c1e50a856439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382abfa4d17ea22314d4cca65ee95030') in 0.031325 seconds 
+  Import took 0.033513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Xbox Controller/Prefab/LB.prefab
+  artifactKey: Guid(b4e31ce7adef11e4b868aacf01a81de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Controller/Prefab/LB.prefab using Guid(b4e31ce7adef11e4b868aacf01a81de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50e593ba918d4756d8dbd599af5de11') in 0.031524 seconds 
+  Import took 0.033794 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
